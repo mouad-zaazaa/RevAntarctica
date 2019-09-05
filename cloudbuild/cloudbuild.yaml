@@ -1,4 +1,4 @@
+waitFor : ['app', 'deploy']
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  waitFor : ['app', 'deploy']
   timeout: '600s'
