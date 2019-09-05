@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args : ['build','-t', 'gcr.io/symbolic-bit-249313/revantartica','.']
-images: ['gcr.io/symbolic-bit-249313/revantartica']
+  args : ['build','-t', 'gcr.io/symbolic-bit-249313/nodeserver','.']
+images: ['gcr.io/symbolic-bit-249313/nodeserver']
