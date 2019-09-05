@@ -10,4 +10,3 @@ automatic_scaling:
   cool_down_period_sec: 200
   cpu_utilization:
     target_utilization: 0.7
-timeout: '1200s'
