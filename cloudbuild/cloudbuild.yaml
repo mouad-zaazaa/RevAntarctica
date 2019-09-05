@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args : ['build','-t', 'gcr.io/symbolic-bit-249313/nodeserver','.']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args : ['deploy','app']
+  args : ['app','deploy']
   timeout: '1600s'
   
 images: ['gcr.io/symbolic-bit-249313/nodeserver']
